@@ -1,8 +1,11 @@
 import React from "react";
-import "./App.css";
-
+import MainScreen from "./Pages/MainScreen";
 function App() {
-  return <div className="App">ORRP-AI</div>;
+  return (
+    <div>
+      <MainScreen />
+    </div>
+  );
 }
 
 export default App;
