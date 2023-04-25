@@ -8,7 +8,7 @@ const Header = () => {
 
   // link home page
   const loadDashboard = () => {
-    navigate("/");
+    navigate("/dashboard");
   };
 
   return (
