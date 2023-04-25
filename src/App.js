@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SidebarContent from "./Pages/SidebarContent";
 import SignIn from "./Components/SignIn/SignIn";
 import Home from "./Components/Homepage/Home";
+import SignUp from "./Components/SignUp/SignUp";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         {/* <Route path="/" exact element={<MainScreen />} /> */}
         <Route path="/signin" exact element={<SignIn />} />
+        <Route path="/signup" exact element={<SignUp />} />
         <Route
           path="/dashboard"
           element={<SidebarContent widget="Dashboard" />}
