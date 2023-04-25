@@ -1,0 +1,66 @@
+.Home__Container {
+    background-image: url("../Assets/HomeImage.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepage__Container {
+    text-align: center;
+    color: white;
+}
+
+.Homepage__Container h1 {
+    font-size: 5rem;
+    color: black;
+    font-family: 'Bruno Ace SC', cursive;
+    margin-top: 8rem;
+}
+
+.Home__Btn {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.Home__SignIn__Btn {
+    color: #753422;
+    background: #FFEBC9;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 2px solid #753422;
+}
+
+.Home__SignUp__Btn {
+    color: #753422;
+    background: #FFEBC9;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 2px solid #753422;
+}
+
+.Home__SignIn__Btn:hover {
+    color: #FFEBC9;
+    background: #D79771;
+    transition: 0.9s;
+    border: 2px solid #FFEBC9;
+}
+
+.Home__SignUp__Btn:hover {
+    color: #FFEBC9;
+    background: #D79771;
+    transition: 0.9s;
+    border: 2px solid #FFEBC9;
+}
