@@ -10,6 +10,11 @@ const Home = () => {
     navigate("/signin");
   };
 
+  // SignUp Route
+  const loadSignUp = () => {
+    navigate("/signup");
+  };
+
   return (
     <div className="Home__Container">
       <div className="Homepage__Container">
@@ -21,7 +26,9 @@ const Home = () => {
           <div className="Home__SignIn__Btn" onClick={loadSignIn}>
             SignIn
           </div>
-          <div className="Home__SignUp__Btn">SignUp</div>
+          <div className="Home__SignUp__Btn" onClick={loadSignUp}>
+            SignUp
+          </div>
         </div>
       </div>
     </div>
