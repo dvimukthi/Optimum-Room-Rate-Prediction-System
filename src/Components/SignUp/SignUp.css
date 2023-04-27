@@ -1,5 +1,36 @@
 .SignUp__Container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FFEBC9;
     height: 100vh;
+}
+
+.SignUp__Container h1 {
+    color: #753422;
+    font-family: 'Poppins', sans-serif;
+}
+
+.SignUp__Container label {
+    color: #e08a58;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.SignUp__Btn {
+    margin-top: 20px;  
+    width: "20rem";
+    color: white;
+    background: orange;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid rgb(178, 128, 0);
+}
+
+.SignUp__Btn:hover {
+    background: orange;
+    color: black;
+    border: 1px solid black;
 }
