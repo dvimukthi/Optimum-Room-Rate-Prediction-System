@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import "./SignUp.css";
-import { Axios } from "axios";
+import axios from "axios";
 
 function SignUp() {
-  const [SignUpName, setSignUpName] = useState("");
-  const [SignUpPassword, setSignUpPassword] = useState("");
+  const [name, setName] = useState("");
+  const [password, setPassword] = useState("");
 
-  const signup = () => {
-    Axios.post("http://localhost:3001/signup", {
-      name: SignUpName,
-      password: SignUpPassword,
-    }).then((response) => {
-      console.log(response);
+  const signup = async (e) => {
+    e.preventDefault();
+    const response = await axios.post("http://localhost:3001/signup", {
+      name,
+      password,
     });
+    console.log(response);
   };
 
   return (
@@ -21,9 +21,8 @@ function SignUp() {
       <label>Name</label>
       <input
         type="text"
-        onChange={(e) => {
-          setSignUpName(e.target.value);
-        }}
+        value={name}
+        onChange={(e) => setName(e.target.value)}
         placeholder="Name *"
         style={{
           backgroundColor: "white",
@@ -36,9 +35,8 @@ function SignUp() {
       <label>Password</label>
       <input
         type="password"
-        onChange={(e) => {
-          setSignUpPassword(e.target.value);
-        }}
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
         placeholder="Password *"
         style={{
           backgroundColor: "white",
