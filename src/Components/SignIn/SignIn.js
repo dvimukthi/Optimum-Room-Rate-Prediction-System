@@ -46,8 +46,8 @@ function SignIn() {
           marginTop: "10px",
         }}
       />
-      <div className="SignUp__Btn" onClick={signin}>
-        SIGNIN
+      <div className="SignIn__Btn" onClick={signin}>
+        Sign In
       </div>
     </div>
   );

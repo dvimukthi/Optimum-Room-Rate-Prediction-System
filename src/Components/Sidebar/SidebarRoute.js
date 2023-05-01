@@ -4,7 +4,7 @@ import Dashboard from "../Dashboard/Dashboard";
 import Price from "../Price/Price";
 import RoomType from "../RoomType/RoomType";
 
-const SidebarRoute = ({ widget }) => {
+function SidebarRoute({ widget }) {
   return (
     <div>
       <Box>
@@ -18,6 +18,6 @@ const SidebarRoute = ({ widget }) => {
       </Box>
     </div>
   );
-};
+}
 
 export default SidebarRoute;

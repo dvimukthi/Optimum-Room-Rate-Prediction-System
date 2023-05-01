@@ -1,10 +1,12 @@
 import React from "react";
-import MainScreen from "./MainScreen";
+import SidebarBody from "../Components/Sidebar/SidebarBody";
+import MainScreen from "../Pages/MainScreen";
 
 function SidebarContent({ widget }) {
   return (
     <div>
-      <MainScreen widget={widget} />
+      <MainScreen />
+      <SidebarBody widget={widget} />
     </div>
   );
 }

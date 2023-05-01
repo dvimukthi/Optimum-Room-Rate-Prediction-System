@@ -4,7 +4,6 @@
     background: #D79771;
     width: 250px;
     height: 100vh;
-    /* border-radius: 0rem 2rem 2rem 0rem; */
     align-items: center;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%), 0 1px 3px rgb(0 0 0 / 30%);
 }
@@ -14,4 +13,27 @@
     flex-direction: column;
     width: 240px;
     margin-top: 40px;
+}
+
+.SidebarItems__Container h2 {
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+}
+
+.LogOut__Btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+    background: #FFEBC9;
+    padding: 5px;
+    outline: 2px solid rgb(232, 204, 161);
+    outline-offset: .2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.LogOut__Btn:hover {
+    background: #753422;
+    color: white;
+    border: 1px solid black;
 }

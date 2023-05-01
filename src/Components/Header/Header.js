@@ -28,8 +28,6 @@ const Header = () => {
         />
         <h2>ORRP-AI</h2>
       </div>
-      {/* <div className="Header__Profile">
-      </div> */}
     </div>
   );
 };

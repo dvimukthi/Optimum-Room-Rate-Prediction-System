@@ -19,18 +19,18 @@
 }
 
 .SignUp__Btn {
-    margin-top: 20px;  
-    width: "20rem";
+    margin-top: 20px;
     color: white;
-    background: orange;
+    width: "20rem";
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
+    background: #e08a58;
     cursor: pointer;
+    border-radius: 15px;
     border: 1px solid rgb(178, 128, 0);
 }
 
 .SignUp__Btn:hover {
-    background: orange;
-    color: black;
-    border: 1px solid black;
+    background: #b46c43;
+        color: white;
+        border: 1px solid black;
 }

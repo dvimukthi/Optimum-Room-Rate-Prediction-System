@@ -1,0 +1,37 @@
+.Price__Container {
+    display: flex;
+    flex-direction: column;
+}
+.Price__Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Price__Container label {
+    margin-top: 10px;
+}
+
+.Price__Container input {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Price__Btn {
+    background-color: #fd9402;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Price__Btn:hover {
+    background-color: #dae841;
+}

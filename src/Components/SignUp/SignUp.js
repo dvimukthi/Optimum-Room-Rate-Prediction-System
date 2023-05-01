@@ -47,7 +47,7 @@ function SignUp() {
         }}
       />
       <div className="SignUp__Btn" onClick={signup}>
-        SIGNUP
+        Sign Up
       </div>
     </div>
   );
