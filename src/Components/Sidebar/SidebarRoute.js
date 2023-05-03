@@ -5,14 +5,15 @@ import Price from "../Price/Price";
 import RoomType from "../RoomType/RoomType";
 
 function SidebarRoute({ widget }) {
+  console.log("WIDGET - ",widget)
   return (
     <div>
       <Box>
-        {widget === "dashboard" ? (
+        {widget == "Dashboard" ? (
           <Dashboard />
-        ) : widget === "price" ? (
+        ) : widget == "Price" ? (
           <Price />
-        ) : widget === "roomtype" ? (
+        ) : widget == "roomtype" ? (
           <RoomType />
         ) : null}
       </Box>

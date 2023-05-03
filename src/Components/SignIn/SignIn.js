@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./SignIn.css";
 import axios from "axios";
 
@@ -6,13 +7,20 @@ function SignIn() {
   const [SignInName, setSignInName] = useState("");
   const [SignInPassword, setSignInPassword] = useState("");
 
+  const navigate = useNavigate();
+
   const signin = async (e) => {
     e.preventDefault();
-    const response = await axios.post("http://localhost:3001/signin", {
+    const response = await axios.post("http://localhost:3002/signin", {
       SignInName,
       SignInPassword,
     });
-    console.log(response);
+
+    if (response.status === 200) {
+      navigate('/dashboard')
+    }
+
+    
   };
 
   return (

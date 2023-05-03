@@ -4,7 +4,10 @@ import MainScreen from "../Pages/MainScreen";
 
 function SidebarContent({ widget }) {
   return (
-    <div>
+    <div style={{
+        display:"flex",
+        flexDirection:"row"
+      }}>
       <MainScreen />
       <SidebarBody widget={widget} />
     </div>

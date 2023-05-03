@@ -1,6 +1,6 @@
 .container {
     height: 70px;
-    background-color: #B05B3B;
+    /* background-color: #B05B3B; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;

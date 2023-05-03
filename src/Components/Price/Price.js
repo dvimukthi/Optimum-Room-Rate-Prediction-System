@@ -56,8 +56,7 @@ const Price = () => {
           onChange={(e) => setRoomType(e.target.value)}
           required
         />
-
-        <div type="Price__Btn">Predict Price</div>
+        <div className="Price__Btn">Predict Price</div>
       </form>
     </div>
   );

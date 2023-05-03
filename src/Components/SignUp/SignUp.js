@@ -8,7 +8,7 @@ function SignUp() {
 
   const signup = async (e) => {
     e.preventDefault();
-    const response = await axios.post("http://localhost:3001/signup", {
+    const response = await axios.post("http://localhost:3002/signup", {
       name,
       password,
     });

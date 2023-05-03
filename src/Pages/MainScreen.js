@@ -2,9 +2,10 @@ import React from "react";
 import Sidebar from "../Components/Sidebar/Sidebar";
 import Header from "../Components/Header/Header";
 
+
 const MainScreen = () => {
   return (
-    <div>
+    <div  className="Sidebar__Container">
       <Header />
       <Sidebar />
     </div>

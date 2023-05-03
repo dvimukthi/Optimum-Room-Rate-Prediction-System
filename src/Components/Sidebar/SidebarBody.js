@@ -1,6 +1,7 @@
 import React from "react";
 import SidebarRoute from "./SidebarRoute";
 
+
 function SidebarBody(props) {
   const { widget } = props;
   return (
