@@ -5,10 +5,10 @@ const Dashboard = () => {
   return (
     <div className="Dashboard__Container">
       <h1>
-        Welcome To Optimum Room Prediction System <br />
+        Welcome To Optimum Room Rate Prediction System <br />
         (ORRP-AI){" "}
       </h1>
-      <p>~~1.0.0 version~~</p>
+      <p>~~2.0.0 version~~</p>
     </div>
   );
 };
